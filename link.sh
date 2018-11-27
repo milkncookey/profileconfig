@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euox pipefail 
+set -euox pipefail
 
 BACKUP_DIR=/tmp/dotconfig_backup/profileconfig
 DIR="$(cd "$(dirname "$0")"; pwd -P)"
